@@ -41,8 +41,8 @@ body {
 }
 
 .navbar.navbar-inverse.navbar-static-top {
-  background: #f9ca07;
-/*    background: #5cb85c; */
+  background: #5cb85c;
+/*    background: #5cb85c; #f9ca07*/
   border-color: #398439;
 }
 .navbar.navbar-inverse.navbar-static-top a{
@@ -54,12 +54,12 @@ body {
 
 f9ca07
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
-  background:#e3b805;
-/*    background:#398439; */
+  background:#398439;
+/*    background:#398439;#e3b805 */
   font-weight:700;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
-  background:#e3b805;
+  background:#398439;
   color:#fff;
   font-weight:700;
 }
