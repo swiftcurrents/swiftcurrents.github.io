@@ -247,47 +247,34 @@ and people learning to code in several languages including Swift.</p>
       <div id="wordpress" class="row featurette">
         <div class="col-md-5">
         </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Wordpress.<br><span class="text-muted">Adding functionality.</span></h2>
-          <p class="lead">
-            Setting up stickUp in Wordpress is a breaze.  We are also working on development of a Wordpress Plugin version of stickUp, which will allow for an easy backend to work with and include many features.
-          </p>
-          <p class="lead">
-            It's exactly the same as setting it up on any other website, but here are exact instructions for Wordpress users.
-          </p>
-          <p class="lead">
-            <b>First,</b> you must download the stickUp javascript file <b><i>'stickUp.min.js'</i></b> and place it in a directory called <b><i>'js'</i></b> in your theme's directory. Create this directory if it doesn't already exist. You can get the file from our GitHub.
-          </p>
-          <p class="col-lg-offset-1"><a class="btn btn-large btn-success" href="http://github.com/LiranCohen/stickUp">Visit GitHub</a><br><br></p>
-          <p>
-          <p class="lead">
-            <b>Next,</b> include the stickUp javascript file into Wordpress. Open the file within your teme that includes the footer.  This is most likely <i>'footer.php'</i> or something of that nature, depending on the theme you're using.<br><br>
-            Near the very bottom of the file above the <b><i>'&#60;/body&#62;'</i></b> tag and below the <b><i>'&#60;?php wp_footer(); ?&#62;'</i></b> tag insert the following code.
-          </p>
-          <xmp>
-            <script src="<?php 
-              echo get_stylesheet_directory_uri(); 
-            ?>/js/stickUp.min.js"></script>
-          </xmp>
-          <p class="lead">
-            <b>Finally,</b> add the javascript code that enables stickUp on your Wordpress Theme.  In my example I'm using the default theme <i>'Twenty Thirteen'</i>.  You'll have to inspect your website's CSS for the correct IDs or Classes you may need.<br><br>
-            Directly below the code that we inserted in the last step, paste the following code snippit.
-          </p>
-          <xmp>
-            <script type="text/javascript">
-              //initiating jQuery
-              jQuery(function($) {
-                $(document).ready( function() {
-                  //enabling stickUp on the '#navbar' ID
-                  $('#navbar').stickUp();
-                });
-              });
-            </script>
-          </xmp>
-          <p class="lead">
-            <b>Done!</b> That element is now a sticky element.  You can use the other features of the plugin on Wordpress as well, just take a look at the <a href="#one-pager">One Pager</a> and <a href="#extras">Extras</a> section of this website.<br><br>
-            **Specifically look at the Extras feature <i>'marginTop'</i> to add a margin for use with the Wordpress Toolbar, otherwise it may have a conflict.
-          </p>
+        <div class="col-md-5">
+          <h2 class="featurette-heading">Swift on Slack<span class="text-muted"><br>Try it for yourself.</span></h2>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
+          <p class="lead"><a href="http://www.swiftnoobs.xyz/" target="_blank" ><b>Swift Noobs</b></a> : Devoted to learning the Swift programming language with others, joining forces and sharing knowledge. </p>
+        </div>       
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
+          <p class="lead"><a href="https://ios-developers.io/" target="_blank" >iOS Developers</a> : iOS developers with 20,000 members and counting.</p>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
+          <p class="lead"><a href="http://letslearnswift.herokuapp.com/" target="_blank" ><b>LearnSwift</b></a> : For beginners, intermediates, and expert Swift programmers.</p>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
+          <p class="lead"><a href="https://devchat.devolio.net/" target="_blank" >DevChat</a> : Community of developers, asking and answering Swift questions, solving challenges.</p>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
+          <p class="lead"><a href="https://codenewbie.typeform.com/to/uwsWlZ" target="_blank" ><b>CodeNewbie</b></a> : Supportive community of programmers 
+and people learning to code in several languages including Swift.</p>
         </div>
       </div> <!-- END WORDPRESS -->
 
