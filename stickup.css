@@ -1,4 +1,6 @@
 
+/* GLOBAL STYLES
+-------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 .code { counter-reset: listing; }
@@ -42,7 +44,6 @@ body {
 
 .navbar.navbar-inverse.navbar-static-top {
   background: #5cb85c;
-/*    background: #5cb85c; #f9ca07*/
   border-color: #398439;
 }
 .navbar.navbar-inverse.navbar-static-top a{
@@ -51,10 +52,8 @@ body {
 .navbar.navbar-inverse.navbar-static-top a:hover{
   color:#0A64A4;
 }
-
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
   background:#398439;
-/*    background:#398439;#e3b805 */
   font-weight:700;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
